@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7112E90F207E1ED6A2A002E7 /* Pods_WeatherInFreakingMenuBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9370D9AD7B4565C6CB054D5 /* Pods_WeatherInFreakingMenuBarUITests.framework */; };
+		97D3F7D9E25BA26BB340A034 /* Pods_WeatherInFreakingMenuBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC9074C45027D13CC21A954 /* Pods_WeatherInFreakingMenuBar.framework */; };
 		992101211D33E6AC003290E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992101201D33E6AC003290E5 /* AppDelegate.swift */; };
 		992101231D33E6AC003290E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992101221D33E6AC003290E5 /* Assets.xcassets */; };
 		992101261D33E6AC003290E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992101241D33E6AC003290E5 /* MainMenu.xib */; };
 		992101311D33E6AC003290E5 /* WeatherInFreakingMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992101301D33E6AC003290E5 /* WeatherInFreakingMenuBarTests.swift */; };
 		9921013C1D33E6AC003290E5 /* WeatherInFreakingMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921013B1D33E6AC003290E5 /* WeatherInFreakingMenuBarUITests.swift */; };
+		AA9270F246FDA51B4E8321BE /* Pods_WeatherInFreakingMenuBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E715C3D7C336E950E92FD7 /* Pods_WeatherInFreakingMenuBarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E715C3D7C336E950E92FD7 /* Pods_WeatherInFreakingMenuBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherInFreakingMenuBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC9074C45027D13CC21A954 /* Pods_WeatherInFreakingMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherInFreakingMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD100780AA7FA23A7E6B36F /* Pods-WeatherInFreakingMenuBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBarTests/Pods-WeatherInFreakingMenuBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		87A0368D7F46F2A03CC4BAAA /* Pods-WeatherInFreakingMenuBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBarTests/Pods-WeatherInFreakingMenuBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9921011D1D33E6AC003290E5 /* WeatherInFreakingMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherInFreakingMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		992101201D33E6AC003290E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		992101221D33E6AC003290E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +50,11 @@
 		992101371D33E6AC003290E5 /* WeatherInFreakingMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherInFreakingMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9921013B1D33E6AC003290E5 /* WeatherInFreakingMenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInFreakingMenuBarUITests.swift; sourceTree = "<group>"; };
 		9921013D1D33E6AC003290E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FA68916F3404C9A7B7B48F /* Pods-WeatherInFreakingMenuBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBarUITests/Pods-WeatherInFreakingMenuBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C820DE9080A7D68A80FFE103 /* Pods-WeatherInFreakingMenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBar/Pods-WeatherInFreakingMenuBar.release.xcconfig"; sourceTree = "<group>"; };
+		D9CF9D8DFC264E793DA69CDB /* Pods-WeatherInFreakingMenuBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBarUITests/Pods-WeatherInFreakingMenuBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9370D9AD7B4565C6CB054D5 /* Pods_WeatherInFreakingMenuBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherInFreakingMenuBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37A612CB54AA3E6596FBAE9 /* Pods-WeatherInFreakingMenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInFreakingMenuBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherInFreakingMenuBar/Pods-WeatherInFreakingMenuBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D3F7D9E25BA26BB340A034 /* Pods_WeatherInFreakingMenuBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9270F246FDA51B4E8321BE /* Pods_WeatherInFreakingMenuBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7112E90F207E1ED6A2A002E7 /* Pods_WeatherInFreakingMenuBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,8 @@
 				9921012F1D33E6AC003290E5 /* WeatherInFreakingMenuBarTests */,
 				9921013A1D33E6AC003290E5 /* WeatherInFreakingMenuBarUITests */,
 				9921011E1D33E6AC003290E5 /* Products */,
+				C5AD77A7FC011794820DBAD4 /* Pods */,
+				9B0D08175FAAF60C9BB40963 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +136,29 @@
 			path = WeatherInFreakingMenuBarUITests;
 			sourceTree = "<group>";
 		};
+		9B0D08175FAAF60C9BB40963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9074C45027D13CC21A954 /* Pods_WeatherInFreakingMenuBar.framework */,
+				08E715C3D7C336E950E92FD7 /* Pods_WeatherInFreakingMenuBarTests.framework */,
+				E9370D9AD7B4565C6CB054D5 /* Pods_WeatherInFreakingMenuBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AD77A7FC011794820DBAD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F37A612CB54AA3E6596FBAE9 /* Pods-WeatherInFreakingMenuBar.debug.xcconfig */,
+				C820DE9080A7D68A80FFE103 /* Pods-WeatherInFreakingMenuBar.release.xcconfig */,
+				87A0368D7F46F2A03CC4BAAA /* Pods-WeatherInFreakingMenuBarTests.debug.xcconfig */,
+				7DD100780AA7FA23A7E6B36F /* Pods-WeatherInFreakingMenuBarTests.release.xcconfig */,
+				A3FA68916F3404C9A7B7B48F /* Pods-WeatherInFreakingMenuBarUITests.debug.xcconfig */,
+				D9CF9D8DFC264E793DA69CDB /* Pods-WeatherInFreakingMenuBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 992101401D33E6AC003290E5 /* Build configuration list for PBXNativeTarget "WeatherInFreakingMenuBar" */;
 			buildPhases = (
+				EBCE773AAE97BAE4C4623951 /* 📦 Check Pods Manifest.lock */,
 				992101191D33E6AB003290E5 /* Sources */,
 				9921011A1D33E6AB003290E5 /* Frameworks */,
 				9921011B1D33E6AB003290E5 /* Resources */,
+				217A68C9D1CE86D3256F2863 /* 📦 Embed Pods Frameworks */,
+				5B26D0F01E47BD9460C1A390 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 992101431D33E6AC003290E5 /* Build configuration list for PBXNativeTarget "WeatherInFreakingMenuBarTests" */;
 			buildPhases = (
+				928FD21C786EBB8D9172D399 /* 📦 Check Pods Manifest.lock */,
 				992101281D33E6AC003290E5 /* Sources */,
 				992101291D33E6AC003290E5 /* Frameworks */,
 				9921012A1D33E6AC003290E5 /* Resources */,
+				92C88220D9EA60C29C1A883D /* 📦 Embed Pods Frameworks */,
+				5ABF20F7366587476AA08C18 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 992101461D33E6AC003290E5 /* Build configuration list for PBXNativeTarget "WeatherInFreakingMenuBarUITests" */;
 			buildPhases = (
+				9DE4553DB9CD964FD0E94E72 /* 📦 Check Pods Manifest.lock */,
 				992101331D33E6AC003290E5 /* Sources */,
 				992101341D33E6AC003290E5 /* Frameworks */,
 				992101351D33E6AC003290E5 /* Resources */,
+				06B1C580848861B705495684 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +291,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B1C580848861B705495684 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherInFreakingMenuBarUITests/Pods-WeatherInFreakingMenuBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		217A68C9D1CE86D3256F2863 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherInFreakingMenuBar/Pods-WeatherInFreakingMenuBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABF20F7366587476AA08C18 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherInFreakingMenuBarTests/Pods-WeatherInFreakingMenuBarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B26D0F01E47BD9460C1A390 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherInFreakingMenuBar/Pods-WeatherInFreakingMenuBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928FD21C786EBB8D9172D399 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92C88220D9EA60C29C1A883D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherInFreakingMenuBarTests/Pods-WeatherInFreakingMenuBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE4553DB9CD964FD0E94E72 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCE773AAE97BAE4C4623951 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		992101191D33E6AB003290E5 /* Sources */ = {
@@ -378,6 +549,7 @@
 		};
 		992101411D33E6AC003290E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37A612CB54AA3E6596FBAE9 /* Pods-WeatherInFreakingMenuBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -390,6 +562,7 @@
 		};
 		992101421D33E6AC003290E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C820DE9080A7D68A80FFE103 /* Pods-WeatherInFreakingMenuBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -402,6 +575,7 @@
 		};
 		992101441D33E6AC003290E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A0368D7F46F2A03CC4BAAA /* Pods-WeatherInFreakingMenuBarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -415,6 +589,7 @@
 		};
 		992101451D33E6AC003290E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD100780AA7FA23A7E6B36F /* Pods-WeatherInFreakingMenuBarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -428,6 +603,7 @@
 		};
 		992101471D33E6AC003290E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FA68916F3404C9A7B7B48F /* Pods-WeatherInFreakingMenuBarUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WeatherInFreakingMenuBarUITests/Info.plist;
@@ -441,6 +617,7 @@
 		};
 		992101481D33E6AC003290E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CF9D8DFC264E793DA69CDB /* Pods-WeatherInFreakingMenuBarUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WeatherInFreakingMenuBarUITests/Info.plist;
@@ -471,6 +648,7 @@
 				992101421D33E6AC003290E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		992101431D33E6AC003290E5 /* Build configuration list for PBXNativeTarget "WeatherInFreakingMenuBarTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +657,7 @@
 				992101451D33E6AC003290E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		992101461D33E6AC003290E5 /* Build configuration list for PBXNativeTarget "WeatherInFreakingMenuBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +666,7 @@
 				992101481D33E6AC003290E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
