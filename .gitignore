@@ -1,3 +1,5 @@
 Pods/
 **/xcuserdata
 Podfile.lock
+credentials.plist
+

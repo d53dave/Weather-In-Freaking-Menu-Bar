@@ -6,7 +6,8 @@ target 'WeatherInFreakingMenuBar' do
   use_frameworks!
 
   # Pods for WeatherInFreakingMenuBar
-  pod "ForecastIO", '~> 2.0.0'
+  pod 'ForecastIO', '~> 2.0.0'
+  pod 'SwiftyBeaver', '~> 0.6.3'
 
   target 'WeatherInFreakingMenuBarTests' do
     inherit! :search_paths
