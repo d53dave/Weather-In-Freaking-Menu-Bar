@@ -7,5 +7,5 @@ I like the [degrees app](http://www.degreesapp.com) but I really disliked the id
 I build my own menu bar app that shows the current weather direclty in the bar and shows a selection of forecasts from different providers when clicking on it.
 
 ### Supported Weather Data Sources
-- [Forecast.io](forecast.io)
+- [Forecast.io](www.forecast.io)
 - More to come.
